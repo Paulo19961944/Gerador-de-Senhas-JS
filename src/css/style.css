@@ -52,17 +52,14 @@ main section form label{
 
 /*Campo de Entrada*/
 main section form #char{
-    margin-bottom: 48px; /*Margem Bottom de 48px*/
-}
-
-/*Campo de Entrada*/
-main section form input{
     width: 400px; /*Largura de 400px*/
     height: 32px; /*Altura de 32px*/
     text-align: center; /*Alinha o texto ao centro*/
     background-color: #1A090D; /*Cor de Fundo Preta*/
     font-size: 1rem; /*Tamanho da fonte de 1rem*/
+    margin-bottom: 48px; /*Margem Bottom de 48px*/
 }
+
 
 /*Botão de Ação*/
 main section form #btn{

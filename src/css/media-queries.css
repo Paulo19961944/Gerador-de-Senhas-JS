@@ -18,6 +18,7 @@
         width: 100%; /*Largura de 100%*/
         border-radius: 8px; /*Arredonda a Borda*/
         border: none; /*Nenhuma Borda*/
+        padding: 40px; /*Preenchimento de 40px*/
     }
 
     /*Titulo*/
@@ -26,8 +27,18 @@
     }   
 
     /*Demais Elementos*/
-    main section form label, main section form input, main section form #btn{
+    main section form label, main section form #char, main section form #btn{
         font-size: 0.843rem; /*Tamanho da fonte - 0.843rem*/
+    }
+
+    /*Label - Texto acima do Campo de Entrada*/
+    main section form label{
+        margin: 40px 0 16px 0; /*Margem - Topo | Direita | Bottom | Esquerda*/
+    }
+
+    /*Campo de Entrada*/
+    main section form #char{
+        margin-bottom: 40px; /*Margem em baixo de 40px*/
     }
 }
 
@@ -39,7 +50,7 @@
     }
 
     /*Demais elementos*/
-    main section form label, main section form input, main section form #btn{
+    main section form label, main section form #char, main section form #btn{
         font-size: 0.75rem; /*Tamanho da fonte - 0.75rem*/
     }
 
@@ -57,7 +68,7 @@
     }
 
     /*Campo de Entrada*/
-    main section form input{
+    main section form #char{
         width: 100%; /*Largura de 100%*/
     }    
 
