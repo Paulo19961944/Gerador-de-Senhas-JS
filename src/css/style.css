@@ -78,6 +78,7 @@ main section form #btn:hover{
 
 /*Resultado na Tela*/
 main section #result{
+    font-size: 1rem; /*Tamanho da fonte de 1 rem*/
     margin-top: 48px; /*Margem do Topo de 48px*/
     text-align: center; /*Alinha Texto ao Centro*/
 }

@@ -27,7 +27,7 @@
     }   
 
     /*Demais Elementos*/
-    main section form label, main section form #char, main section form #btn{
+    main section form label, main section form #char, main section form #btn, main section #result{
         font-size: 0.843rem; /*Tamanho da fonte - 0.843rem*/
     }
 
@@ -50,7 +50,7 @@
     }
 
     /*Demais elementos*/
-    main section form label, main section form #char, main section form #btn{
+    main section form label, main section form #char, main section form #btn, main section #result{
         font-size: 0.75rem; /*Tamanho da fonte - 0.75rem*/
     }
 
