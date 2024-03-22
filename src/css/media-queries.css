@@ -1,0 +1,43 @@
+@media screen and (max-width: 820px) {
+    .container{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .container{
+        width: 100%;
+    }
+
+    h1{
+        font-size: 1.5rem;
+    }   
+
+    main section form label, main section form input, main section form #btn{
+        font-size: 0.843rem;
+    }
+}
+
+@media screen and (max-width: 548px) {   
+    h1{
+        font-size: 1.266rem;
+    }
+
+    main section form label, main section form input, main section form #btn{
+        font-size: 0.75rem;
+    }
+
+    main section form input{
+        width: 320px;
+    }
+}
+
+@media screen and (max-width:477px) {
+    main section form input{
+        width: 100%;
+    }    
+
+    main section form #btn{
+        width: 160px;
+    }
+}
