@@ -20,6 +20,13 @@
 }
 
 @media screen and (max-width: 548px) {   
+    body{
+        margin: 0 16px;
+    }
+    .container{
+        border: none;
+    }
+
     h1{
         font-size: 1.266rem;
     }
@@ -34,6 +41,10 @@
 }
 
 @media screen and (max-width:477px) {
+    main section form label{
+        margin-bottom: 16px;
+    }
+
     main section form input{
         width: 100%;
     }    
