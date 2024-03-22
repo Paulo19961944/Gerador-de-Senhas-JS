@@ -1,55 +1,68 @@
+/*Tablet*/
 @media screen and (max-width: 820px) {
+    /*Conteúdo Principal*/
     .container{
-        width: 90%;
+        width: 90%; /*Largura de 90%*/
     }
 }
 
+/*Celular*/
 @media screen and (max-width: 680px) {
-    .container{
-        width: 100%;
-        border-radius: 4px;
+    /*Conteúdo da Página*/
+    body{
+        margin: 0 16px; /*Margem a Direita e a Esquerda de 16px*/
     }
 
+    /*Conteúdo Principal*/
+    .container{
+        width: 100%; /*Largura de 100%*/
+        border-radius: 8px; /*Arredonda a Borda*/
+        border: none; /*Nenhuma Borda*/
+    }
+
+    /*Titulo*/
     h1{
-        font-size: 1.5rem;
+        font-size: 1.5rem; /*Tamanho da fonte de 1.5 rem*/
     }   
 
+    /*Demais Elementos*/
     main section form label, main section form input, main section form #btn{
-        font-size: 0.843rem;
+        font-size: 0.843rem; /*Tamanho da fonte - 0.843rem*/
     }
 }
 
+/*Celular*/
 @media screen and (max-width: 548px) {   
-    body{
-        margin: 0 16px;
-    }
-    .container{
-        border: none;
-    }
-
+    /*Titulo da Página*/
     h1{
-        font-size: 1.266rem;
+        font-size: 1.266rem; /*Tamanho da Fonte - 1.266rem*/
     }
 
+    /*Demais elementos*/
     main section form label, main section form input, main section form #btn{
-        font-size: 0.75rem;
+        font-size: 0.75rem; /*Tamanho da fonte - 0.75rem*/
     }
 
+    /*Campo de Entrada*/
     main section form input{
-        width: 320px;
+        width: 320px; /*Largura de 320px*/
     }
 }
 
+/*Celular*/
 @media screen and (max-width:477px) {
+    /*Label - Texto acima do campo de entrada*/
     main section form label{
-        margin-bottom: 16px;
+        margin-bottom: 16px; /*Margem em baixo de 16px*/
     }
 
+    /*Campo de Entrada*/
     main section form input{
-        width: 100%;
+        width: 100%; /*Largura de 100%*/
     }    
 
+    /*Botão de Ação*/
     main section form #btn{
-        width: 160px;
+        width: 160px; /*Largura de 160px*/
     }
 }

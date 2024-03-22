@@ -1,70 +1,80 @@
+/*Estilo Global*/
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Doppio One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: #fafafa;
+    margin: 0; /*Zera a Margem*/
+    padding: 0; /*Zera o Preenchimento*/
+    box-sizing: border-box; /*Não ultrapassa  os limites do elemento*/
+    font-family: "Doppio One", sans-serif; /*Fonte do Google*/
+    font-weight: 400; /*Peso da Fonte*/
+    font-style: normal; /*Estilo da Fonte*/
+    color: #fafafa; /*Cor da Fonte Branco*/
 }
 
+/*Conteúdo da Página*/
 body{
-    background-color: #f0f0f0;
-    max-width: 100vw;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    background-color: #f0f0f0; /*Cor de Fundo Branco*/
+    max-width: 100vw; /*Largura máxima em toda a tela*/
+    min-height: 100vh; /*Altura Mínima em toda a tela*/
+    display: flex; /*Flexbox*/
+    flex-direction: column; /*Alinha em Colunas*/
+    align-items: center; /*Alinha no Centro Horizontal*/
+    justify-content: center; /*Alinha no Centro Vertical*/
 }
 
+/*Contéudo Principal*/
 .container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #1a535c;
-    padding: 3rem;
-    width: 716px;
-    border: 2px solid #1a090d;
-    border-radius: 8px;
+    display: flex; /*Flexbox*/
+    flex-direction: column; /*Alinha em Colunas*/
+    align-items: center; /*Alinha ao centro horizontalmente*/
+    background-color: #1a535c; /*Cor de Fundo Azul*/
+    padding: 48px; /*Preenchimento de 48px*/
+    width: 716px; /*Largura de 716px*/
+    border: 2px solid #1a090d; /*Borda Sólida de 2px preta*/
+    border-radius: 8px; /*Arredonda os cantos*/
 }
 
+/*Título*/
 h1{
-    font-size: 2.027rem;
+    font-size: 2.027rem; /*Tamanho da Fonte - 2.027rem*/
 }
 
+/*Formulário*/
 main section form{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: flex; /*Flexbox*/
+    flex-direction: column; /*Alinha em Colunas*/
+    align-items: center; /*Alinha ao centro horizontalmente*/
 }
 
+/*Label - Texto acima do campo de entrada*/
 main section form label{
-    font-size: 1rem;
-    margin: 3rem 0 1rem 0;
+    font-size: 1rem; /*Tamanho da Fonte - 1rem*/
+    margin: 48px 0 16px 0; /*Margem - Topo | Direita | Bottom | Esquerda*/
 }
 
-main section form input{
-    width: 400px;
-    height: 2rem;
-    text-align: center;
-    background-color: #1A090D;
-    font-size: 1rem;
-}
-
+/*Campo de Entrada*/
 main section form #char{
-    margin-bottom: 3rem;
+    margin-bottom: 48px; /*Margem Bottom de 48px*/
 }
 
+/*Campo de Entrada*/
+main section form input{
+    width: 400px; /*Largura de 400px*/
+    height: 32px; /*Altura de 32px*/
+    text-align: center; /*Alinha o texto ao centro*/
+    background-color: #1A090D; /*Cor de Fundo Preta*/
+    font-size: 1rem; /*Tamanho da fonte de 1rem*/
+}
+
+/*Botão de Ação*/
 main section form #btn{
-    background-color: #63A46C;
-    font-size: 1rem;
-    border: none;
-    width: 184px;
-    height: 42px;
+    background-color: #63A46C; /*Cor de Fundo Verde*/
+    font-size: 1rem; /*Tamanho da Fonte | 1rem*/
+    border: none; /*Nenhuma Borda*/
+    width: 184px; /*Largura de 184px*/
+    height: 42px; /*Altura de 42px*/
 }
 
+/*Resultado na Tela*/
 main section #result{
-    margin-top: 3rem;
-    text-align: center;
+    margin-top: 48px; /*Margem do Topo de 48px*/
+    text-align: center; /*Alinha Texto ao Centro*/
 }
